@@ -1,0 +1,15 @@
+{
+  "name": "meu-json-server",
+  "version": "1.0.0",
+  "description": "API fake com json-server",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port $PORT --host 0.0.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "json-server": "0.17.4"
+  }
+}
